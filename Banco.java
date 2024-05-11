@@ -10,7 +10,7 @@ public class Banco {
 
         conta.setSaldo(novoSaldo);
 
-        System.out.println("O Depósito de " + valor + " realizado com sucesso. O Novo Saldo é de: " + novoSaldo);
+        System.out.println("O Depósito de " + valor + " Realizado com Sucesso! O Novo Saldo é de: " + novoSaldo);
     }
 
     public void sacar(Conta conta, double valor) {
